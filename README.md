@@ -18,7 +18,7 @@ Requires two arguments:
 
 Example:
 
-./vps.sh ~/Desktop/test1 https://gitlab.cineca.it/rgibelli/puppet-modapp1.git
+./vps.sh ~/Desktop/test1 https://github.com/rgibe/puppet-modapp1
 
 #### CREDITS
 
