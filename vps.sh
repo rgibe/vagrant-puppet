@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #
 # Creates basic Vagrant/Puppet Setup (vps.sh)
 # Assumes you have vagrant installed already
@@ -26,7 +26,7 @@ PROJECT=$1
 REPO_GIT=$2
 #echo $REPO_GIT
 MODULE=$(echo $REPO_GIT | rev | cut -d '/' -f1 | rev | cut -d '.' -f1 | cut -d '-' -f2)
-#echo $MODULE
+echo $MODULE
 
 # Can't continue without git
 which git &>/dev/null || (echo "can't find git"; exit 1)
